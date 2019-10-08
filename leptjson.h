@@ -45,3 +45,4 @@ size_t lept_get_string_length(const lept_value* v);
 void lept_set_string(lept_value* v, const char*	s, size_t len);
 
 #endif /*LEPTJSON_H__*/
+
