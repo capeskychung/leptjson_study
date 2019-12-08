@@ -18,7 +18,7 @@ enum {
 	LEPT_PARSE_EXPECT_VALUE,
 	LEPT_PARSE_INVALID_VALUE,
 	LEPT_PARSE_ROOT_NOT_SINGULAR,
-	LEPT_PARSE_NUMBER_TOO_BI,
+	LEPT_PARSE_NUMBER_TOO_BIG,
 	LEPT_PARSE_MISS_QUOTATION_MARK,
 	LEPT_PARSE_INVALID_STRING_ESCAPE,
 	LEPT_PARSE_INVALID_STRING_CHAR
@@ -45,4 +45,3 @@ size_t lept_get_string_length(const lept_value* v);
 void lept_set_string(lept_value* v, const char*	s, size_t len);
 
 #endif /*LEPTJSON_H__*/
-
