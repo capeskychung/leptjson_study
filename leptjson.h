@@ -40,7 +40,7 @@ void lept_set_boolean(lept_value* v, int b);
 double lept_get_number(const lept_value* v);
 void lept_set_number(lept_value* v, double n);
 
-const char* lept_get_string(const leplt_value* v);
+const char* lept_get_string(const lept_value* v);
 size_t lept_get_string_length(const lept_value* v);
 void lept_set_string(lept_value* v, const char*	s, size_t len);
 
